@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="e.moi.musidroid.SurfaceDeCompo"
+    android:background="@drawable/background_one">
+
+    <RelativeLayout
+        android:id="@+id/bouttons"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <Spinner
+            android:id="@+id/InstrumentSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bouttons"
+        android:layout_marginTop="149dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="85"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textSi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="5"
+                android:textColor="@color/colorPrimary"
+                android:text="Si"/>
+
+            <TextView
+                android:id="@+id/textLaDiese"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="5"
+                android:textColor="@color/colorPrimary"
+                android:text="LaDi" />
+
+            <TextView
+                android:id="@+id/textLa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="5"
+                android:textColor="@color/colorPrimary"
+                android:text="La" />
+
+            <TextView
+                android:id="@+id/textSolDiese"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:textColor="@color/colorPrimary"
+                android:shadowRadius="5"
+                android:text="SolDi" />
+
+            <TextView
+                android:id="@+id/textSol"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:textColor="@color/colorPrimary"
+                android:shadowRadius="5"
+                android:text="Sol" />
+
+            <TextView
+                android:id="@+id/textFaDiese"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:textColor="@color/colorPrimary"
+                android:shadowRadius="5"
+                android:text="FaDi" />
+
+            <TextView
+                android:id="@+id/textFa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="5"
+                android:textColor="@color/colorPrimary"
+                android:text="FA"/>
+
+            <TextView
+                android:id="@+id/textMi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:textColor="@color/colorPrimary"
+                android:shadowRadius="5"
+                android:text="Mi"
+                />
+
+            <TextView
+                android:id="@+id/textReDiese"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="5"
+                android:textColor="@color/colorPrimary"
+                android:text="ReDi"/>
+
+            <TextView
+                android:id="@+id/textRe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:textColor="@color/colorPrimary"
+                android:shadowRadius="5"
+                android:text="Re" />
+
+            <TextView
+                android:id="@+id/textDoDiese"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:textColor="@color/colorPrimary"
+                android:shadowRadius="5"
+                android:text="DoDi" />
+
+            <TextView
+                android:id="@+id/textDoBas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:textColor="@color/colorPrimary"
+                android:shadowRadius="5"
+                android:text="Do" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="15">
+
+            <e.moi.musidroid.Surface
+                android:id="@+id/SurfaceView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekBarTemps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bouttons"
+        android:layout_marginTop="57dp" />
+
+    <Button
+        android:id="@+id/Instrumoins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/seekBarTemps"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="19dp"
+        android:text="Instru-"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:background="@drawable/my_button_bg"
+        android:onClick="RevenirInstrument"/>
+
+    <Button
+        android:id="@+id/Instruplus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Instrumoins"
+        android:layout_toEndOf="@+id/Instrumoins"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:background="@drawable/my_button_bg"
+        android:text="Instru+"
+        android:onClick="AjouterInstrument"/>
+
+    <Button
+        android:id="@+id/Resetbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Instruplus"
+        android:layout_alignBottom="@+id/Instruplus"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:background="@drawable/my_button_bg"
+        android:layout_toEndOf="@+id/Instruplus"
+        android:onClick="onClickRemove"
+        android:text="Reset All" />
+
+    <Button
+        android:id="@+id/ButtonOctavedown"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Resetbutton"
+        android:layout_alignBottom="@+id/Resetbutton"
+        android:layout_toEndOf="@+id/Resetbutton"
+        android:background="@drawable/my_button_bg"
+        android:onClick="onClickSetOctaveDown"
+        android:text="O-" />
+
+    <Button
+        android:id="@+id/ButtonOctaveup"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ButtonOctavedown"
+        android:layout_alignBottom="@+id/ButtonOctavedown"
+        android:layout_toEndOf="@+id/ButtonOctavedown"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:background="@drawable/my_button_bg"
+        android:onClick="onClickSetOctaveUp"
+        android:text="O-" />
+
+    <Button
+        android:id="@+id/button_Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/seekBarTemps"
+        android:layout_marginTop="27dp"
+        android:onClick="onClickBack"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:background="@drawable/my_button_bg"
+        android:text="Exit" />
+
+    <Button
+        android:id="@+id/Button_Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_Exit"
+        android:layout_toStartOf="@+id/button_Exit"
+        android:onClick="onClickSave"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:background="@drawable/my_button_bg"
+        android:text="Save" />
+
+    <TextView
+        android:id="@+id/TextViewOctave"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/Button_Save" />
+
+    <TextView
+        android:id="@+id/TextViewInstrumen"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_Play"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button_Play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Button_Save"
+        android:layout_alignBottom="@+id/Button_Save"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:background="@drawable/my_button_bg"
+        android:layout_toStartOf="@+id/Button_Save"
+        android:onClick="OnClickPlay"
+        android:text="Play" />
+
+
+</RelativeLayout>
